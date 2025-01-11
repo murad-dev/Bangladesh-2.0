@@ -231,3 +231,125 @@ body {
     font-size: 16px;
     font-weight: 400;
 }
+
+/* news style */
+
+.news_container {
+    margin-top: 80px;
+}
+
+.news_container .news_title {
+    color: rgb(14, 14, 14);
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.news_container .news_des {
+    color: rgb(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 32px;
+}
+
+.news_container .news_box {
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+    padding: 48px;
+    gap: 32px;
+}
+
+.news_container .news_img {
+    border-radius: 24px;
+}
+
+.news_container .box_title {
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+.news_container .box_content .time {
+    margin: 12px 0;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(14, 14, 14, 0.7);
+}
+
+.news_container .box_content .box_des {
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 32px;
+}
+
+/* donate style */
+
+.donate {
+    margin-top: 80px;
+    text-align: center;
+}
+
+.d_title {
+    color: rgb(14, 14, 14);
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.d_des {
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 32px;
+}
+
+.amount {
+    display: flex;
+    gap: 24px;
+    justify-content: space-evenly;
+}
+
+.amount .card_bg {
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(198, 228, 214);
+    padding: 40px;
+}
+
+.amount .card_nobg {
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    padding: 40px;
+}
+
+.amount p {
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.others_amount {
+    margin: 32px 0;
+    /* width: 70%; */
+    box-sizing: border-box;
+    border-bottom: 1px solid rgba(14, 14, 14, 0.15);
+    background: rgb(255, 255, 255);
+}
+
+.others_amount .others_tk {
+    color: rgba(14, 14, 14, 0.3);
+    font-size: 20px;
+    font-weight: 400;
+    border: none;
+    width: 100%;
+    text-align: center;
+    border: none;
+    padding: 20px 40px;
+}
+
